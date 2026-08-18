@@ -1,8 +1,9 @@
 class Solution {
 public:
     int largestInteger(vector<int>& nums, int k) {
-
-        if(k==1){
+        int n = nums.size();
+        
+        if(k==1 || k==n){
             int ans =-1;
             unordered_map<int,int>mp;
             for(int x : nums){
@@ -16,7 +17,6 @@ public:
             return ans;
         }
         int f = nums[0];
-        int n = nums.size();
         int l = nums[n-1];
         int cf = 1, cl =1;
         for(int i =1;i<n;i++){
@@ -29,8 +29,8 @@ public:
         if(cl ==1 && cf == 1){
             return max(f,l);
         }
-        else if (cf>=1 && cl ==1) return l;
-        else if (cl>=1 && cf ==1) return f;
+        else if (cl ==1) return l;
+        else if (cf ==1) return f;
         else return -1;
     }
 };
