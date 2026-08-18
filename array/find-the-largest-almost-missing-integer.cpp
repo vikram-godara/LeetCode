@@ -3,7 +3,7 @@ public:
     int largestInteger(vector<int>& nums, int k) {
         int n = nums.size();
         
-        if(k==1 || k==n){
+        if(k==1){
             int ans =-1;
             unordered_map<int,int>mp;
             for(int x : nums){
@@ -16,6 +16,7 @@ public:
             }
             return ans;
         }
+        if(k==n)return *max_element(nums.begin(),nums.end());
         int f = nums[0];
         int l = nums[n-1];
         int cf = 1, cl =1;
