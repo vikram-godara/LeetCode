@@ -19,6 +19,8 @@ public:
 
         int qu = abs(leftqu-rightqu);
         int d = abs(leftsum-rightsum);
+
+        if(qu%2) return true;
         return d!=(qu/2)*9;
 
     }
