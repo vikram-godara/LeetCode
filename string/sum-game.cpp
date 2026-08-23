@@ -15,13 +15,8 @@ public:
                 else rightqu++;
             }
         }
-        if(leftqu == rightqu) return leftsum!=rightsum;
-
-        int qu = abs(leftqu-rightqu);
-        int d = abs(leftsum-rightsum);
-
-        if(qu%2) return true;
-        return d!=(qu/2)*9;
-
+        int qu = leftqu+rightqu;
+        if(qu%2) return true; //odd number alice get one extra move.
+        return leftsum-rightsum!=((rightqu-leftqu)/2)*9;
     }
 };
