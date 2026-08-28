@@ -9,7 +9,6 @@ public:
         for (char c : s)
             cnt[c - 'a']++;
 
-        // Check palindrome possibility
         int odd = 0;
         char mid = 0;
 
@@ -23,13 +22,6 @@ public:
         if (odd > 1)
             return "";
 
-        // Smallest possible first half
-        string half;
-
-        for (int i = 0; i < 26; i++)
-            half += string(cnt[i] / 2, 'a' + i);
-
-        // Function to build palindrome
         auto makePalindrome = [&](string left) {
             string res = left;
 
@@ -42,24 +34,55 @@ public:
             return res;
         };
 
-        // IMPORTANT:
-        // If the smallest half itself gives answer, return it.
-        string smallest = makePalindrome(half);
+        // Count characters available for left half
+        vector<int> halfCnt(26);
 
-        if (smallest > target)
-            return smallest;
+        for (int i = 0; i < 26; i++)
+            halfCnt[i] = cnt[i] / 2;
 
-        // Now find the smallest half > target's first half
+        // 1. Smallest possible half
+        string smallest;
+
+        for (int i = 0; i < 26; i++)
+            smallest += string(halfCnt[i], 'a' + i);
+
+        string ans = makePalindrome(smallest);
+
+        if (ans > target)
+            return ans;
+
+        // 2. Try target's first half exactly
+        vector<int> rem = halfCnt;
+        string left = "";
+        bool ok = true;
+
+        for (int i = 0; i < m; i++) {
+            int x = target[i] - 'a';
+
+            if (rem[x] == 0) {
+                ok = false;
+                break;
+            }
+
+            rem[x]--;
+            left += target[i];
+        }
+
+        if (ok) {
+            string cur = makePalindrome(left);
+
+            if (cur > target)
+                return cur;
+        }
+
+        // 3. Find smallest half strictly greater than target's half
         for (int i = m - 1; i >= 0; i--) {
 
-            vector<int> rem(26);
+            rem = halfCnt;
+            left = "";
+            ok = true;
 
-            for (int j = 0; j < 26; j++)
-                rem[j] = cnt[j] / 2;
-
-            // Match target[0 ... i-1]
-            bool ok = true;
-
+            // Keep prefix equal to target
             for (int j = 0; j < i; j++) {
                 int x = target[j] - 'a';
 
@@ -69,13 +92,13 @@ public:
                 }
 
                 rem[x]--;
+                left += target[j];
             }
 
             if (!ok)
                 continue;
 
-            // At position i, choose smallest character
-            // strictly greater than target[i]
+            // Make position i just bigger
             int x = target[i] - 'a';
 
             for (int c = x + 1; c < 26; c++) {
@@ -83,20 +106,18 @@ public:
                 if (rem[c] == 0)
                     continue;
 
-                string left = target.substr(0, i);
-                left += char('a' + c);
-
+                string curLeft = left + char('a' + c);
                 rem[c]--;
 
-                // Fill rest with smallest characters
+                // Fill remaining characters smallest
                 for (int d = 0; d < 26; d++) {
                     while (rem[d] > 0) {
-                        left += char('a' + d);
+                        curLeft += char('a' + d);
                         rem[d]--;
                     }
                 }
 
-                return makePalindrome(left);
+                return makePalindrome(curLeft);
             }
         }
 
