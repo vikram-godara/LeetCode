@@ -3,11 +3,10 @@ public:
     string lexPalindromicPermutation(string s, string target) {
         int n = s.size();
 
-        vector<int> cnt(26, 0);
+        vector<int> cnt(26);
         for (char c : s)
             cnt[c - 'a']++;
 
-        // Check if palindrome is possible
         int odd = 0;
         char mid = 0;
 
@@ -21,81 +20,26 @@ public:
         if (odd > 1)
             return "";
 
-        // Make smallest first half
+        // Build smallest first half
         string half;
-        for (int i = 0; i < 26; i++) {
+        for (int i = 0; i < 26; i++)
             half += string(cnt[i] / 2, 'a' + i);
-        }
 
-        int m = n / 2;
+        // Every permutation of half gives one palindrome.
+        do {
+            string res = half;
 
-        // Try to find answer
-        for (int i = m - 1; i >= 0; i--) {
+            if (n % 2)
+                res += mid;
 
-            // We will keep target's prefix [0...i-1]
-            vector<int> rem = cnt;
+            string rev = half;
+            reverse(rev.begin(), rev.end());
+            res += rev;
 
-            bool ok = true;
-
-            for (int j = 0; j < i; j++) {
-                int x = target[j] - 'a';
-
-                if (rem[x] < 2) {
-                    ok = false;
-                    break;
-                }
-
-                rem[x] -= 2;
-            }
-
-            if (!ok)
-                continue;
-
-            // Try smallest character greater than target[i]
-            for (char c = target[i] + 1; c <= 'z'; c++) {
-
-                if (rem[c - 'a'] < 2)
-                    continue;
-
-                rem[c - 'a'] -= 2;
-
-                string ans = target.substr(0, i);
-                ans += c;
-
-                // Fill remaining first half with smallest chars
-                for (char x = 'a'; x <= 'z'; x++) {
-                    while (rem[x - 'a'] >= 2 && ans.size() < m) {
-                        ans += x;
-                        rem[x - 'a'] -= 2;
-                    }
-                }
-
-                // Build palindrome
-                string res = ans;
-
-                if (n % 2)
-                    res += mid;
-
-                string rev = ans;
-                reverse(rev.begin(), rev.end());
-                res += rev;
-
+            if (res > target)
                 return res;
-            }
-        }
 
-        // Also check if smallest half itself works
-        string res = half;
-
-        if (n % 2)
-            res += mid;
-
-        string rev = half;
-        reverse(rev.begin(), rev.end());
-        res += rev;
-
-        if (res > target)
-            return res;
+        } while (next_permutation(half.begin(), half.end()));
 
         return "";
     }
