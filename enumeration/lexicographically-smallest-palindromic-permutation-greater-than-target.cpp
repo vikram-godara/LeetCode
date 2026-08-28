@@ -1,6 +1,6 @@
 class Solution {
 public:
-    string lexGreaterPalindrome(string s, string target) {
+    string lexPalindromicPermutation(string s, string target) {
         int n = s.size();
 
         vector<int> cnt(26, 0);
