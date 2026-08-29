@@ -2,19 +2,23 @@ class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
         int n = nums.size();
-        int i = 0;
-        int mx = *max_element(nums.begin(),nums.end());
-        if(nums[0]==mx){
-            sort(nums.begin(),nums.end());
-            for(int x : nums) cout<<x<<" ";
-            cout<<endl;
-            return;
+        for(int i = n-2;i>=0;i--){
+            int mn = INT_MAX;
+            int id = -1;
+            for(int j = i+1;j<n;j++){
+                if(nums[i]<nums[j]){
+                    if(nums[j]<mn){
+                        mn = nums[j];
+                        id = j;
+                    }
+                }
+            }
+            if(id!=-1){
+                swap(nums[i],nums[id]);
+                sort(nums.begin()+i+1,nums.end());
+                return;
+            }
         }
-        else{
-            sort(nums.begin()+1,nums.end(),greater<int>());
-            for(int x : nums) cout<<x<<" ";
-            cout<<endl;
-            return;
-        }
+        sort(nums.begin(),nums.end());
     }
 };
