@@ -15,7 +15,12 @@ public:
             if((v[i].first<=v[i-1].second) &&(v[i-1].second<v[i].second)){
                 ans.push_back({v[i-1].first,v[i].second});
             }
-            else ans.push_back({v[i].first,v[i].second});
+            else {
+                if(i==1){
+                    ans.push_back({v[0].first,v[1].second});
+                }
+                ans.push_back({v[i].first,v[i].second});
+            }
         }
         
         return ans;
