@@ -12,7 +12,7 @@ public:
         }
         sort(v.begin(),v.end());
         for(int i=1;i<v.size();i++){
-            if((v[i].first<=v[i-1].second) &&(v[i-1].second<v[i].second)){
+            if((v[i].first<=v[i-1].second) &&(v[i-1].second<=v[i].second)){
                 ans.push_back({v[i-1].first,v[i].second});
             }
             else {
