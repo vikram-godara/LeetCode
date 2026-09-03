@@ -10,38 +10,38 @@ public:
         if(even==0)return true;
         if(odd==0)return true;
 
+        int minodd = INT_MAX,mineven =INT_MAX;
+        for(int i=0;i<n;i++){
+            if(nums1[i]%2){
+                minodd = min(minodd,nums1[i]);
+            }
+            else{
+                mineven = min(mineven,nums1[i]);
+            }
+        }
+
         bool checkeven = true;
         for(int i=0;i<n;i++){
-            if(nums1[i]%2==0) continue;
+            if(nums1[i]%2==0)continue;
             else{
-                if(i==0) {
-                    checkeven = false;
-                    break;
-                }
-                int d = nums1[i]-nums1[i-1];
+                int d = nums1[i]-mineven;
                 if(d>=1){
                     if(d%2) checkeven = false;
                 }
                 else checkeven = false;
             }
         }
-
-        bool checkodd = true;
+        bool checkodd=true;
         for(int i=0;i<n;i++){
             if(nums1[i]%2)continue;
             else{
-                if(i==0){
-                    checkodd = false;
-                    break;
-                }
-                int d = nums1[i]-nums1[i-1];
+                int d = nums1[i]-minodd;
                 if(d>=1){
-                    if(d%2==0)checkodd = false;
+                    if(d%2==0) checkodd = false;
                 }
                 else checkodd = false;
             }
         }
-
         return (checkodd || checkeven ? true:false);
     }
 };
