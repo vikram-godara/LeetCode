@@ -5,14 +5,15 @@ public:
         int m = typed.size();
         bool ans = true;
         int i=0,j=0;
-        while(i<n &&j<m){
-            if(name[i] == typed[j]){
+        while(j<m){
+            if( i<n && name[i] == typed[j]){
                 i++;
                 j++;
             }
-            while((name[i]!=typed[j] && i<n && j<m)) j++;
+            else if(j>0 && typed[j]==typed[j-1])j++;
+            else return false;
         }
-        if(j==m && i!=n) ans=false;
-        return ans;
+      
+        return i==n;
     }
 };
