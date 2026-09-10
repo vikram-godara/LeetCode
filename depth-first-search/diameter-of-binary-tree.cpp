@@ -14,14 +14,15 @@ public:
     int diameterOfBinaryTree(TreeNode* root) {
         int cnt = 0;
         dfs(root,cnt);
-        return (cnt+1)/2;
+        return cnt;
 
     }
 private:
-    void dfs(TreeNode* root ,int &cnt){
-        if(root==nullptr) return;
-        cnt++;
-        dfs(root->left,cnt);
-        dfs(root->right,cnt);
+    int dfs(TreeNode* root ,int &cnt){
+        if(root==nullptr) return 0;
+        int l = dfs(root->left,cnt);
+        int r = dfs(root->right,cnt);
+        cnt = max(cnt,l+r);
+        return 1 + max(l,r);
     }
 };
