@@ -12,18 +12,22 @@
  */
 class Solution {
 public:
-    int node = 0;
-    int bfs(TreeNode* root) {
+    int dfs(TreeNode* root) {
         if (root == NULL)
+            return 0;
+        if (root->left == NULL && root->right == NULL)
             return 1;
-        int l = bfs(root->left);
-        int r = bfs(root->right);
-        int h = max(l,r);
-        node = max(node, h);
+
+        if (root->right == NULL)
+            return 1 + dfs(root->left);
+        if (root->left == NULL)
+            return 1 + dfs(root->right);
+        int l = dfs(root->left);
+        int r = dfs(root->right);
         return 1 + max(l, r);
     }
     int maxDepth(TreeNode* root) {
-        bfs(root);
-        return node;
+        
+        return dfs(root);
     }
 };
