@@ -15,7 +15,7 @@ public:
     int node = 0;
     int bfs(TreeNode* root) {
         if (root == NULL)
-            return 0;
+            return 1;
         int l = bfs(root->left);
         int r = bfs(root->right);
         int h = max(l,r);
@@ -24,6 +24,6 @@ public:
     }
     int maxDepth(TreeNode* root) {
         bfs(root);
-        return node +1;
+        return node;
     }
 };
