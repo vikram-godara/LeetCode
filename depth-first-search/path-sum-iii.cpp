@@ -12,7 +12,7 @@
 class Solution {
 public:
     int cnt =0;
-    void divide(TreeNode* main , int target){
+    void divide(TreeNode* main , long long target){
         if(main==NULL) return;
         // if(main->left==NULL && main->right == NULL) return;
 
@@ -21,7 +21,7 @@ public:
         divide(main->left,target);
         divide(main->right,target);
     }
-    void dfs(TreeNode* root , int target){
+    void dfs(TreeNode* root ,long long target){
         if(root == NULL) return;
         target-=root->val;
         if(target == 0){
