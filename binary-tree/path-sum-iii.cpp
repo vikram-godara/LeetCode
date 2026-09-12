@@ -16,7 +16,7 @@ public:
         if(main==NULL) return;
 
         sum+=(main->val);
-        if(mp[sum-target]) cnt++;
+        cnt+=mp[sum-target];
 
         mp[sum]++;
 
