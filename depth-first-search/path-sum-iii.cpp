@@ -11,32 +11,25 @@
  */
 class Solution {
 public:
-    int cnt =0;
-    void divide(TreeNode* main , long long target){
+    int cnt=0;
+    void dfs(TreeNode* main ,long long sum,int target ,unordered_map<long long,int>&mp){
         if(main==NULL) return;
-        // if(main->left==NULL && main->right == NULL) return;
 
-        dfs(main,target);
+        sum+=(main->val);
+        if(mp[sum-target]) cnt++;
 
-        divide(main->left,target);
-        divide(main->right,target);
-    }
-    void dfs(TreeNode* root ,long long target){
-        if(root == NULL) return;
-        target-=root->val;
-        if(target == 0){
-            cnt++;
-            // return ;
-        }
-        // if(root->left == nullptr && root->right==nullptr){
-        //     if(target!=0) return;
-        // }
-        dfs(root->left,target);
-        dfs(root->right,target);
+        mp[sum]++;
+
+        dfs(main->left,sum,target,mp);
+        dfs(main->right,sum,target,mp);
+
+        mp[sum]--;
 
     }
     int pathSum(TreeNode* root, int targetSum) {
-        divide(root,targetSum);
+        unordered_map<long long ,int>mp;
+        mp[0] =1;
+        dfs(root,0,targetSum,mp);
         return cnt;
     }
 };
