@@ -34,6 +34,23 @@ public:
             r++;
 
         }
+        for(int i = 0;i<n;i+=3){
+            for(int j = 0;j<n;j+=3){
+                vector<int>fre(n+1,0);
+                for(int l = i;l<i+3;l++){
+                    for(int r = j;r<j+3;r++){
+                        if(board[l][r]!='.'){
+                            fre[board[l][r]-'0']++;
+                            if(fre[board[l][r]-'0']>1){
+                                ans = false;
+                                break;
+                            }
+                        }
+                    }
+                    if(!ans) break;
+                }
+            }
+        }
         return ans;
     }
 };
