@@ -11,9 +11,10 @@
  */
 class Solution {
 public:
-    vector<vector<int>>ans;
-    void bfs (TreeNode *root){
-        if(root==nullptr) return;
+    
+    vector<vector<int>> levelOrder(TreeNode* root) {
+        vector<vector<int>>ans;
+        if(root==nullptr) return ans;
         queue<TreeNode*>q;
         q.push(root);
         
@@ -33,9 +34,6 @@ public:
             }
             ans.push_back(arr);
         }
-    }
-    vector<vector<int>> levelOrder(TreeNode* root) {
-        bfs(root);
         return ans;
     }
 };
