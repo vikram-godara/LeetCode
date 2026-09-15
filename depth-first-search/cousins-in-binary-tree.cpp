@@ -19,7 +19,7 @@ public:
             int n = q.size();
             unordered_map<int,int>mp;
             for(int i=0;i<n;i++){
-                auto &[f,parent]= q.front();
+                auto [f,parent]= q.front();
                 q.pop();
                 
                 mp[f->val] = parent->val;
