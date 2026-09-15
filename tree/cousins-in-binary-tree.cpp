@@ -11,27 +11,26 @@
  */
 class Solution {
 public:
+    int xl=-1,yl=-1;
+    TreeNode* xp = nullptr;
+    TreeNode* yp = nullptr;
+    void dfs(TreeNode* main ,TreeNode* p, int level ,int x,int y){
+        if(main == nullptr) return;
+        if(main->val == x){
+            xl = level;
+            xp = p;
+        }
+        if(main->val == y){
+            yl = level;
+            yp = p;
+        }
+        dfs(main->left,main,level+1,x,y);
+        dfs(main->right,main,level+1,x,y);
+    }
     bool isCousins(TreeNode* root, int x, int y) {
-        queue<pair<TreeNode*,TreeNode*>>q;
-        q.push({root,root});
-        unordered_map<int,int>mp;
-        while(!q.empty()){
-            int n = q.size();
-            unordered_map<int,int>mp;
-            for(int i=0;i<n;i++){
-                auto [f,parent]= q.front();
-                q.pop();
-                
-                mp[f->val] = parent->val;
-                if(f->left!=nullptr) q.push({f->left,f});
-                if(f->right!=nullptr) q.push({f->right,f});
-            }
-            if(mp.find(x) != mp.end()  && mp.find(y) !=mp.end()){
-                return mp[x]!=mp[y];
-            }
-            if(mp.find(x)!=mp.end() || mp.find(y) !=mp.end()){
-                return false;
-            }
+        dfs(root,nullptr,0,x,y);
+        if((xl == yl) && (xp!=yp)){
+            return true;
         }
         return false;
     }
