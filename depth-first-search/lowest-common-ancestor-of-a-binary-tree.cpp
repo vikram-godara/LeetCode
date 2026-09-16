@@ -9,14 +9,26 @@
  */
 class Solution {
 public:
+    void parent(TreeNode* root, TreeNode* main,unordered_map<TreeNode*,TreeNode*>&mp) {
+        if (root == NULL)
+            return ;
+        mp[root] = main;
+        parent(root->left, root,mp);
+        parent(root->right, root,mp);
+    }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if(root==NULL || root == p || root ==q) return root;
-
-        TreeNode* left = lowestCommonAncestor(root->left,p,q);
-        TreeNode* right = lowestCommonAncestor(root->right,p,q);
-
-        if(left!=NULL  && right!=NULL) return root;
+        unordered_map<TreeNode*, TreeNode*> mp;
+        parent(root,nullptr,mp);
+        unordered_set<TreeNode*>st;
         
-        return left!=NULL ? left : right;
+        while(p!=NULL){
+            st.insert(p);
+            p = mp[p];
+        }
+        while(!st.count(q)){
+            st.insert(q);
+            q = mp[q];
+        }
+        return q;
     }
 };
