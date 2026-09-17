@@ -49,36 +49,31 @@ public:
             return root;
         TreeNode* left = root->left;
         TreeNode* right = root->right;
-        if (left) {
-            unordered_map<TreeNode*, pair<TreeNode*, int>> mp1;
-            bfs1(left, root, mp1);
-            for (auto& [c, par] : mp1) {
-                TreeNode* child = c;
-                TreeNode* parent = par.first;
-                int pos = par.second;
-                if (pos == 0) {
-                    parent->right = child;
-                } else {
-                    parent->left = child;
-                }
-            }
+
+        unordered_map<TreeNode*, pair<TreeNode*, int>> mp;
+        bfs1(left, root, mp);
+        bfs2(right, root, mp);
+
+        unordered_map<TreeNode*, pair<TreeNode*, TreeNode*>> child;
+        for (auto& [node, par] : mp) {
+
+            TreeNode* parent = par.first;
+            int pos = par.second;
+
+            if (pos == 0)
+                child[parent].first = node;
+            else
+                child[parent].second = node;
         }
-        if (right) {
-            unordered_map<TreeNode*, pair<TreeNode*, int>> mp2;
-            bfs2(right, root, mp2);
-            for (auto& [c, par] : mp2) {
-                TreeNode* child = c;
-                TreeNode* parent = par.first;
-                int pos = par.second;
-                if (pos == 0) {
-                    parent->right = child;
-                } else  {
-                    parent->left = child;
-                }
-            }
+
+        for (auto& [parent, children] : child) {
+
+            TreeNode* oldLeft = children.first;
+            TreeNode* oldRight = children.second;
+
+            parent->left = oldRight;
+            parent->right = oldLeft;
         }
-        root->left = right;
-        root->right = left;
         return root;
     }
 };
