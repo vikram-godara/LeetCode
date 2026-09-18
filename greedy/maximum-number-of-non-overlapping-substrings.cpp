@@ -35,8 +35,8 @@ public:
             int r = mp[sub[0]].second;
             bool ans = true;
             for(int j=l;j<=r;j++){
-                int x = mp[sub[j]].first;
-                int y = mp[sub[j]].second;
+                int x = mp[s[j]].first;
+                int y = mp[s[j]].second;
                 if(x<l){
                     ans = false;
                     break;
@@ -50,20 +50,20 @@ public:
         });
         vector<pair<string,pair<int,int>>>selected;
         for(auto &x : finals){
-            int l = x.second.frist;
+            int l = x.second.first;
             int r = x.second.second;
             bool overloop = false;
             for(auto &y : selected){
-                int l2 = y.second.frist;
+                int l2 = y.second.first;
                 int r2 = y.second.second;
                 if(!(r<l2 || l>r2)){
-                    overlopp = true;
+                    overloop = true;
                     break;
                 }
             }
-            if(!overloop) selected.push_back();
+            if(!overloop) selected.push_back(x);
         }
-        vector<int>ans;
+        vector<string>ans;
         for(auto &x : selected){
             ans.push_back(x.first);
         }
