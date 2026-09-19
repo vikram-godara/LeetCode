@@ -7,6 +7,12 @@ public:
             int mid = l + (r - l) / 2;
             if (nums[mid] == target)
                 return true;
+
+            if(nums[l] == nums[mid] && nums[mid] == nums[r]){
+                l++;
+                r--;
+                continue;
+            }
             if (nums[mid] <= nums[r]) {
                 if (nums[mid] <= target && nums[r] <= target) {
                     l = mid+1;
