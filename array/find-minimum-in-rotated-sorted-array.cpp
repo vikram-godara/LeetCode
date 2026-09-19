@@ -7,7 +7,7 @@ public:
         while (l <= r) {
             int mid = l + (r - l) / 2;
             if (nums[mid] >= nums[r]) {
-                mn = min(mn,nums[mid]);
+                mn = min(mn,nums[l]);
                 l = mid+1;
             }
             else{
