@@ -26,6 +26,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [3663-find-the-least-frequent-digit](https://github.com/vikram-godara/LeetCode/tree/master/3663-find-the-least-frequent-digit) |
+| [3665-twisted-mirror-path-count](https://github.com/vikram-godara/LeetCode/tree/master/3665-twisted-mirror-path-count) |
 ## Hash Table
 |  |
 | ------- |
@@ -38,4 +39,12 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [3663-find-the-least-frequent-digit](https://github.com/vikram-godara/LeetCode/tree/master/3663-find-the-least-frequent-digit) |
+## Dynamic Programming
+|  |
+| ------- |
+| [3665-twisted-mirror-path-count](https://github.com/vikram-godara/LeetCode/tree/master/3665-twisted-mirror-path-count) |
+## Matrix
+|  |
+| ------- |
+| [3665-twisted-mirror-path-count](https://github.com/vikram-godara/LeetCode/tree/master/3665-twisted-mirror-path-count) |
 <!---LeetCode Topics End-->
