@@ -27,6 +27,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 | ------- |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/vikram-godara/LeetCode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/vikram-godara/LeetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [1004-max-consecutive-ones-iii](https://github.com/vikram-godara/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/vikram-godara/LeetCode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [3663-find-the-least-frequent-digit](https://github.com/vikram-godara/LeetCode/tree/master/3663-find-the-least-frequent-digit) |
 | [3665-twisted-mirror-path-count](https://github.com/vikram-godara/LeetCode/tree/master/3665-twisted-mirror-path-count) |
@@ -59,9 +60,15 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ## Sliding Window
 |  |
 | ------- |
+| [1004-max-consecutive-ones-iii](https://github.com/vikram-godara/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/vikram-godara/LeetCode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Prefix Sum
 |  |
 | ------- |
+| [1004-max-consecutive-ones-iii](https://github.com/vikram-godara/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/vikram-godara/LeetCode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+## Binary Search
+|  |
+| ------- |
+| [1004-max-consecutive-ones-iii](https://github.com/vikram-godara/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
