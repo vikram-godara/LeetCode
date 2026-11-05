@@ -31,6 +31,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/vikram-godara/LeetCode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/vikram-godara/LeetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [1004-max-consecutive-ones-iii](https://github.com/vikram-godara/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/vikram-godara/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/vikram-godara/LeetCode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/vikram-godara/LeetCode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/vikram-godara/LeetCode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
@@ -41,6 +42,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 | ------- |
 | [0424-longest-repeating-character-replacement](https://github.com/vikram-godara/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/vikram-godara/LeetCode/tree/master/0442-find-all-duplicates-in-an-array) |
+| [1248-count-number-of-nice-subarrays](https://github.com/vikram-godara/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/vikram-godara/LeetCode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3663-find-the-least-frequent-digit](https://github.com/vikram-godara/LeetCode/tree/master/3663-find-the-least-frequent-digit) |
 ## Math
@@ -48,6 +50,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 | ------- |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/vikram-godara/LeetCode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/vikram-godara/LeetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/vikram-godara/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/vikram-godara/LeetCode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3663-find-the-least-frequent-digit](https://github.com/vikram-godara/LeetCode/tree/master/3663-find-the-least-frequent-digit) |
 ## Counting
@@ -74,12 +77,14 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 | ------- |
 | [0424-longest-repeating-character-replacement](https://github.com/vikram-godara/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [1004-max-consecutive-ones-iii](https://github.com/vikram-godara/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/vikram-godara/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/vikram-godara/LeetCode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/vikram-godara/LeetCode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 ## Prefix Sum
 |  |
 | ------- |
 | [1004-max-consecutive-ones-iii](https://github.com/vikram-godara/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/vikram-godara/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/vikram-godara/LeetCode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Binary Search
 |  |
