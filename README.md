@@ -110,4 +110,8 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [1267-count-servers-that-communicate](https://github.com/vikram-godara/LeetCode/tree/master/1267-count-servers-that-communicate) |
+## Linked List
+|  |
+| ------- |
+| [0237-delete-node-in-a-linked-list](https://github.com/vikram-godara/LeetCode/tree/master/0237-delete-node-in-a-linked-list) |
 <!---LeetCode Topics End-->
