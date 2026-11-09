@@ -18,6 +18,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/vikram-godara/LeetCode/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/vikram-godara/LeetCode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/vikram-godara/LeetCode/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Shortest Path
@@ -35,6 +36,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 | [1267-count-servers-that-communicate](https://github.com/vikram-godara/LeetCode/tree/master/1267-count-servers-that-communicate) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/vikram-godara/LeetCode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/vikram-godara/LeetCode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/vikram-godara/LeetCode/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/vikram-godara/LeetCode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3663-find-the-least-frequent-digit](https://github.com/vikram-godara/LeetCode/tree/master/3663-find-the-least-frequent-digit) |
 | [3665-twisted-mirror-path-count](https://github.com/vikram-godara/LeetCode/tree/master/3665-twisted-mirror-path-count) |
@@ -114,4 +116,12 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [0237-delete-node-in-a-linked-list](https://github.com/vikram-godara/LeetCode/tree/master/0237-delete-node-in-a-linked-list) |
+## Simulation
+|  |
+| ------- |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/vikram-godara/LeetCode/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
+## Ordered Set
+|  |
+| ------- |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/vikram-godara/LeetCode/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 <!---LeetCode Topics End-->
