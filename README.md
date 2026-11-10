@@ -10,6 +10,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [0424-longest-repeating-character-replacement](https://github.com/vikram-godara/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [3692-majority-frequency-characters](https://github.com/vikram-godara/LeetCode/tree/master/3692-majority-frequency-characters) |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/vikram-godara/LeetCode/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Graph Theory
 |  |
@@ -48,6 +49,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 | [1248-count-number-of-nice-subarrays](https://github.com/vikram-godara/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/vikram-godara/LeetCode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3663-find-the-least-frequent-digit](https://github.com/vikram-godara/LeetCode/tree/master/3663-find-the-least-frequent-digit) |
+| [3692-majority-frequency-characters](https://github.com/vikram-godara/LeetCode/tree/master/3692-majority-frequency-characters) |
 ## Math
 |  |
 | ------- |
@@ -61,6 +63,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 | ------- |
 | [1267-count-servers-that-communicate](https://github.com/vikram-godara/LeetCode/tree/master/1267-count-servers-that-communicate) |
 | [3663-find-the-least-frequent-digit](https://github.com/vikram-godara/LeetCode/tree/master/3663-find-the-least-frequent-digit) |
+| [3692-majority-frequency-characters](https://github.com/vikram-godara/LeetCode/tree/master/3692-majority-frequency-characters) |
 ## Dynamic Programming
 |  |
 | ------- |
