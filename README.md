@@ -10,6 +10,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [0424-longest-repeating-character-replacement](https://github.com/vikram-godara/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/vikram-godara/LeetCode/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [3692-majority-frequency-characters](https://github.com/vikram-godara/LeetCode/tree/master/3692-majority-frequency-characters) |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/vikram-godara/LeetCode/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Graph Theory
@@ -136,6 +137,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/vikram-godara/LeetCode/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/vikram-godara/LeetCode/tree/master/2243-calculate-digit-sum-of-a-string) |
 ## Ordered Set
 |  |
 | ------- |
