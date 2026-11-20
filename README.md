@@ -43,6 +43,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/vikram-godara/LeetCode/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/vikram-godara/LeetCode/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [2567-minimum-score-by-changing-two-elements](https://github.com/vikram-godara/LeetCode/tree/master/2567-minimum-score-by-changing-two-elements) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/vikram-godara/LeetCode/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/vikram-godara/LeetCode/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3364-minimum-positive-sum-subarray](https://github.com/vikram-godara/LeetCode/tree/master/3364-minimum-positive-sum-subarray) |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/vikram-godara/LeetCode/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
@@ -80,6 +81,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 | ------- |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/vikram-godara/LeetCode/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/vikram-godara/LeetCode/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/vikram-godara/LeetCode/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/vikram-godara/LeetCode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3665-twisted-mirror-path-count](https://github.com/vikram-godara/LeetCode/tree/master/3665-twisted-mirror-path-count) |
 | [3693-climbing-stairs-ii](https://github.com/vikram-godara/LeetCode/tree/master/3693-climbing-stairs-ii) |
@@ -95,6 +97,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/vikram-godara/LeetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/vikram-godara/LeetCode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [2567-minimum-score-by-changing-two-elements](https://github.com/vikram-godara/LeetCode/tree/master/2567-minimum-score-by-changing-two-elements) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/vikram-godara/LeetCode/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 ## Sliding Window
 |  |
 | ------- |
