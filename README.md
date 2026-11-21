@@ -141,6 +141,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ## Linked List
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/vikram-godara/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/vikram-godara/LeetCode/tree/master/0237-delete-node-in-a-linked-list) |
 ## Simulation
 |  |
@@ -176,4 +177,8 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/vikram-godara/LeetCode/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/vikram-godara/LeetCode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
