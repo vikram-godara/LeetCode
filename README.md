@@ -145,6 +145,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 | [0002-add-two-numbers](https://github.com/vikram-godara/LeetCode/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/vikram-godara/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/vikram-godara/LeetCode/tree/master/0237-delete-node-in-a-linked-list) |
+| [0328-odd-even-linked-list](https://github.com/vikram-godara/LeetCode/tree/master/0328-odd-even-linked-list) |
 ## Simulation
 |  |
 | ------- |
