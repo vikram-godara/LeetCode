@@ -63,6 +63,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/vikram-godara/LeetCode/tree/master/0002-add-two-numbers) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/vikram-godara/LeetCode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/vikram-godara/LeetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/vikram-godara/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
@@ -141,6 +142,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/vikram-godara/LeetCode/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/vikram-godara/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/vikram-godara/LeetCode/tree/master/0237-delete-node-in-a-linked-list) |
 ## Simulation
@@ -180,5 +182,6 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/vikram-godara/LeetCode/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/vikram-godara/LeetCode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
