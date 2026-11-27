@@ -10,6 +10,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/vikram-godara/LeetCode/tree/master/0014-longest-common-prefix) |
+| [0205-isomorphic-strings](https://github.com/vikram-godara/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0424-longest-repeating-character-replacement](https://github.com/vikram-godara/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [1903-largest-odd-number-in-string](https://github.com/vikram-godara/LeetCode/tree/master/1903-largest-odd-number-in-string) |
 | [2124-check-if-all-as-appears-before-all-bs](https://github.com/vikram-godara/LeetCode/tree/master/2124-check-if-all-as-appears-before-all-bs) |
@@ -64,6 +65,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ## Hash Table
 |  |
 | ------- |
+| [0205-isomorphic-strings](https://github.com/vikram-godara/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0424-longest-repeating-character-replacement](https://github.com/vikram-godara/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/vikram-godara/LeetCode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [1248-count-number-of-nice-subarrays](https://github.com/vikram-godara/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
