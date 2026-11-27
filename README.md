@@ -9,6 +9,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/vikram-godara/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0424-longest-repeating-character-replacement](https://github.com/vikram-godara/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [1903-largest-odd-number-in-string](https://github.com/vikram-godara/LeetCode/tree/master/1903-largest-odd-number-in-string) |
 | [2124-check-if-all-as-appears-before-all-bs](https://github.com/vikram-godara/LeetCode/tree/master/2124-check-if-all-as-appears-before-all-bs) |
@@ -35,6 +36,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ## Array
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/vikram-godara/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/vikram-godara/LeetCode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/vikram-godara/LeetCode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/vikram-godara/LeetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
@@ -245,4 +247,8 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [3934-smallest-unique-subarray](https://github.com/vikram-godara/LeetCode/tree/master/3934-smallest-unique-subarray) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/vikram-godara/LeetCode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
